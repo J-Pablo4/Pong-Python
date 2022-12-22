@@ -31,6 +31,8 @@ ball.shape("square")
 ball.color("white")
 ball.penup()
 ball.goto(0, 0)
+ball.dx = .1
+ball.dy = .1
 
 # Movement Functions
 # Paddle A
